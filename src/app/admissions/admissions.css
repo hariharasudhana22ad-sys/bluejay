@@ -1,0 +1,25 @@
+/* Google Form Embed Container */
+.google-form-container {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.google-form-container iframe {
+  display: block;
+  min-height: 600px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .google-form-container iframe {
+    min-height: 500px;
+  }
+}
+
+@media (max-width: 576px) {
+  .google-form-container iframe {
+    min-height: 450px;
+  }
+}
